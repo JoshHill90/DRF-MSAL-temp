@@ -1,0 +1,17 @@
+import logging
+
+### use this 
+#
+#try:    
+   
+#except Exception as e:
+#   logger.error("Stripe invoice create operation failed: %s", str(e))
+#   return redirect('issue-backend', e=str(e))
+###
+
+
+logging.basicConfig(
+    level=logging.ERROR,
+    filename='error.log', 
+    format='%(asctime)s [%(levelname)s]: %(message)s',
+)
